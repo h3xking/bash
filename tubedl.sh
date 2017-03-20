@@ -21,11 +21,11 @@ if [ $c -eq 1 ]; then
 elif [ $c -eq 2 ]; then
   	if [ -d ~/Desktop/entertainment ]; then
 	youtube-dl $u
-        mv *mp4 ~/Desktop/entertainment/
+        mv *.mp4 ~/Desktop/entertainment/
       else 
 	mkdir ~/Desktop/entertainemtn/
 	youtube-dl $u
-        mv *mp4 ~/Desktop/entertainment/
+        mv *.mp4 ~/Desktop/entertainment/
       exit 
 	fi
 else 
